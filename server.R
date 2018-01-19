@@ -13,17 +13,6 @@ function(input, output) {
     
   })
   
-  rawDebounceTitle = reactive({
-    
-    input$debounceTitle
-  })
-  
-  rawThrottleTitle = reactive({
-    
-    input$throttleTitle
-  })
-  
- 
   
   output$budgetYear = renderPlot({
     
